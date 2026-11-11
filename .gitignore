@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+jobs/
+.env
+*.blend
+*.blend1
+*.stl
+*.3mf
+*.gcode

@@ -1,0 +1,17 @@
+{
+  "request": "做一枚空白挂线牌，长 30 mm、宽 20 mm、厚 3 mm，开一个直径 5 mm 的通孔。",
+  "design": "毫米。平放，圆边，孔中心距左边 5 mm，宽度方向居中。单件，无装配。PLA 室内标记用。",
+  "acceptance": "冷却后用卡尺量长、宽、厚与孔径，试穿目标挂绳，检查孔口毛刺、翘曲和分层。",
+  "machine": "Bambu Lab A1 mini 0.4 nozzle",
+  "process": "0.20mm Standard @BBL A1M",
+  "filament": "Bambu PLA Basic @BBL A1M",
+  "bed": "Textured PEI Plate",
+  "source_files": ["tag.blend"],
+  "parts": [
+    {
+      "stl": "tag.stl",
+      "size_mm": [30, 20, 3],
+      "vertical_bores": [{"center_xy_mm": [-10, 0], "diameter_mm": 5}]
+    }
+  ]
+}
